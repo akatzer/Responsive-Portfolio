@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Contact Me</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    </head>
+    <body>
+        <!-- Top of the main Page-->      
+        <header>
+            <div class="header">
+                <div class="name">
+                    <h1>Austin Katzer</h1>
+                </div> 
+                <div class="header-right">
+                    <a href="index.html" id="about">About</a>
+                    <a href="portfolio.html" id="portfolio">Portfolio</a>
+                    <a href="#" id="contact">Contact</a>
+                </div>             
+            </div>
+        </header>
+
+        <!-- Box in the page that contains the form for right now it just redirects to the home page eventually it can gather data-->
+        <div class="clearfix">          
+            <section id="about-me">
+                <h1 id="intro">Contact</h1>
+                <hr>
+                <div class="form">
+                    <form action="index.html">
+                        Name<br>
+                        <input type="text" name="name" value="John Smith" onfocus="this.value=''">
+                        <br>
+                        Email<br>
+                        <input type="email" name="email" value="example@gmail.com" onfocus="this.value=''">
+                        <br>
+                        Message<br>
+                        <textarea name"message" rows="15" onfocus="this.value=''">
+                        </textarea>
+                        <br>
+                        <input type="submit" id="button" onclick="alert('Thank you for your inquiry, I will be in contact with you soon!')">
+                    </form>
+                </div>                    
+            </section>
+        </div>
+        
+        
+
+        <div class="footer">
+            <p></p>
+        </div>
+    </body>
+</html>

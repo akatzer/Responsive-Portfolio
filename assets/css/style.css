@@ -1,0 +1,246 @@
+/* White header with bottom border */
+header{
+    width: 100%;
+    background-color: #ffffff;
+    border-bottom: 2px solid #cccccc;
+}
+
+/* The area where my name and links go along the top*/
+.header {
+    background-color: #ffffff;
+    width: 960px;
+    overflow: auto;
+    margin: 0 auto;
+    position: static;
+}
+
+/* my name on the header */
+.name{
+    background-color: #4aaaa5;
+    color: white;
+    float: left;
+    text-align: center;
+    padding: 7px;
+    text-decoration: none;
+    font-size: 18px; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* The link text on the header*/
+.header a {
+    float: left;
+    color: #777777;   
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* where the links above go on the header*/
+.header-right {
+    float: right;
+    text-align: center;
+    margin-top: 35px;
+    height: 18px
+}
+
+/* Change color on hover of links */
+.header a:hover {
+    background-color: #ddd;
+    color: black
+}
+
+/* the background */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 150%;
+    background-image: url(../images/qbkls.png);
+    color: #777777
+}
+
+/* make it so the links dont turn purple */
+a:link {
+    text-decoration: none;
+}
+
+/* body of page */
+div.clearfix {
+    width: 960px;
+    margin: 0 auto;
+    padding: 0;  
+    position: relative; 
+    overflow: auto; 
+    background-color: #ffffff;
+    margin-top: 40px;
+    border-color: #dddddd;
+    border-style: solid;
+    border-width: 1px;
+}
+
+/* getting everything in the body to line up */
+#about-me {
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* About me color and size */
+#intro {
+    color: #4aaaa5;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+/* picture dimensions */
+#bio-image {
+    margin-right: 20px;
+    width: 260px;
+    height: 220px;
+    margin-top: 15px;
+    float: left;
+    margin-left: 0;
+   
+}
+
+/* link to swagelok website */
+#work-link {
+    color: #4aaaa5;
+}
+
+/* the divider on the body*/
+hr {
+    height: 3px;
+    background-color: #cccccc;
+    border-style: none;
+}
+
+
+/* the next three are to get the borders between the links */
+#about {
+    border-right: 1px solid #e4e0e0;
+    padding: 0 22px 0 22px
+}
+
+#portfolio {
+    border-right: 1px solid #e4e0e0;
+    padding: 0 22px 0 22px;
+}
+
+#contact {
+    padding: 0 22px 0 22px;
+}
+
+/* pretty self explainitory */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #666666;
+    border-top: 4px solid #4aaaa5;
+    height: 50px
+}
+
+
+
+
+
+/* Contact me */
+/* message area formatting */
+textarea {
+    width: 920px;
+    border-color: #cccccc;
+    border-width: 1px;
+    border-style: solid;
+}
+
+/* Input formatting */
+input {
+    width: 905px;
+    margin: 5px 0 20px 0;
+    padding: 10px;
+    border-color: #cccccc;
+    border-width: 1px;
+    border-style: solid;
+    color: #777777;
+}
+
+/* getting the form away from the break */
+.form {
+    margin-top: 25px;
+}
+
+/* button styling */
+#button{
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    cursor: pointer;
+    width: 110px;   
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 30px
+}
+
+
+
+
+/* Portfolio */
+/* image properties */
+img {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    float: left;
+    padding: 0;
+}
+
+/* Where the pictures go */
+.box-set {
+    position: relative;
+    margin-left: -20px;
+    
+}
+    
+.container {
+        position: relative;
+        text-align: center;
+        margin: 25px;
+        padding: 0;
+        float: left;
+        width: 280px;
+        
+        
+                      
+}
+
+.banner1 {
+    color: white;
+    position: absolute;
+    background-color: #4aaaa5;
+    width: 240px;
+    top: 110px;
+    line-height: 15px;
+    padding: 20px;
+    font-size: 18px;
+}
+/* text boxes on the pictures 
+#images {
+    position: relative;
+    color: white;
+    background-color: #4aaaa5;
+    text-align: center;
+    width: 282px;
+    margin-left: 20px;
+    bottom: 90px;
+    height: 50px;
+    line-height: 50px;
+    vertical-align: middle;*/
+
+
+
