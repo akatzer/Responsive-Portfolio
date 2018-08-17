@@ -15,7 +15,7 @@ header{
 }
 
 /* my name on the header */
-.name{
+.name {
     background-color: #4aaaa5;
     color: white;
     float: left;
@@ -72,16 +72,18 @@ div.clearfix {
     position: relative; 
     overflow: auto; 
     background-color: #ffffff;
-    margin-top: 40px;
+    margin-top: 20px;
     border-color: #dddddd;
     border-style: solid;
     border-width: 1px;
+    margin-bottom: 70px;
 }
 
+
 /* getting everything in the body to line up */
-#about-me {
-    float: left;
-    margin-left: 20px;
+.main {
+    float: left; 
+    margin-left:  20px;   
     margin-right: 20px;
 }
 
@@ -89,8 +91,8 @@ div.clearfix {
 #intro {
     color: #4aaaa5;
     font-size: 30px;
-    font-family: Georgia, 'Times New Roman', Times, serif
-}
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    }
 
 /* picture dimensions */
 #bio-image {
@@ -113,6 +115,7 @@ hr {
     height: 3px;
     background-color: #cccccc;
     border-style: none;
+  
 }
 
 
@@ -172,7 +175,7 @@ input {
 }
 
 /* button styling */
-#button{
+#button {
     background-color: #4aaaa5;
     border: none;
     color: white;
@@ -203,20 +206,17 @@ img {
 /* Where the pictures go */
 .box-set {
     position: relative;
-    margin-left: -20px;
-    
+   margin-left: -20px;
+  
 }
     
 .container {
         position: relative;
         text-align: center;
-        margin: 25px;
+        margin: 20px;
         padding: 0;
         float: left;
-        width: 280px;
-        
-        
-                      
+        width: 280px;                  
 }
 
 .banner1 {
@@ -224,23 +224,152 @@ img {
     position: absolute;
     background-color: #4aaaa5;
     width: 240px;
-    top: 110px;
+    top: 115px;
     line-height: 15px;
     padding: 20px;
-    font-size: 18px;
+    
 }
-/* text boxes on the pictures 
-#images {
-    position: relative;
-    color: white;
-    background-color: #4aaaa5;
-    text-align: center;
-    width: 282px;
-    margin-left: 20px;
-    bottom: 90px;
-    height: 50px;
-    line-height: 50px;
-    vertical-align: middle;*/
+
+
+
+
+/* Start of Media Queries */
+
+
+
+@media screen and (max-width: 640px) {
+    .header {
+        width: 100%;
+        align-content: center;
+    }
+
+    div.clearfix {
+        width: 90%;
+        margin: 20px auto 70px auto;
+    }
+
+    .header-right {
+        width: 75%;
+        padding: 0px;
+        margin-top: 10px;
+        margin-bottom: 16px;
+    }
+
+    .name {
+        width: 100%;
+        padding: 0;
+        align-content: center;
+    }
+
+    .banner1 {
+        width: 100%;
+        top: 78%;
+        line-height: 10px;
+        padding: 20px 0 20px 0;
+    }
+
+    .container {
+        padding: 0;
+        width: 96%;
+        height: auto;
+        margin: 10px 0 20px 22px;
+       
+    }
+   input {
+        width: 497px;
+        padding: 10px 0 10px 10px;
+    }
+
+    textarea {
+        width: 503px;
+    }
+
+    #bio-image {
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (min-width: 641px) and (max-width: 768px) {
+    .header {
+        width: 100%
+    }
+
+    div.clearfix {
+        width: 94%;
+        margin: 20px 0 70px 20px;
+    }
+
+    .name {
+        margin-left: 20px
+    }
+
+    .banner1 {
+        width: 100%;
+        top: 67%;
+        line-height: 10px;
+        padding: 20px 0 20px 0;
+    }
+
+    .container {
+        padding: 0;
+        width: 46%;
+        height: auto;
+        margin: 10px 0 20px 22px;
+       
+    }
+   input {
+        width: 520px;
+        padding: 10px 0 10px 10px;
+    }
+
+    textarea {
+        width: 526px;
+    }
+}
+
+/* 980px */
+@media screen and (min-width: 769px) and (max-width: 980px) {
+    .header {
+        width: 100%
+    }
+
+    
+    div.clearfix {
+        width: 580px;
+        margin-left: 40px;   
+    }
+
+    .name {
+        margin-left: 40px
+    }
+
+    .banner1 {
+        width: 220px;
+        top: 105px;
+        line-height: 10px;
+        padding: 20px;
+    }
+
+    .container {
+        padding: 0;
+        width: 260px;
+        margin: 10px 0 20px 20px
+    }
+    
+    input {
+        width: 520px;
+        padding: 10px 0 10px 10px;
+    }
+
+    textarea {
+        width: 526px;
+    }
+}
+
+
+
 
 
 
